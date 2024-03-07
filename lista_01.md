@@ -23,13 +23,13 @@ print(a)
 
 Escolha a opção que responde corretamente:
 
-@@<font color ="green">a) Imprime os números pares de 1 a 10.</font>@@
+<font color ="green">a) Imprime os números pares de 1 a 10. (Correta)</font>
 
-<font color ="red">b) Imprime os números ímpares de 1 a 10.</font>
+<font color ="red">b) Imprime os números ímpares de 1 a 10.</font>(Errada)
 
-<font color ="red">c) Imprime os números pares de 2 a 10.</font>
+<font color ="red">c) Imprime os números pares de 2 a 10.</font>(Errada)
 
-<font color ="red">d) Imprime os números ímpares de 2 a 10.</font>
+<font color ="red">d) Imprime os números ímpares de 2 a 10.</font>(Errada)
 
 ______
 
@@ -39,13 +39,13 @@ ______
 
 No lugar onde está escrito “// linha” qual das opções abaixo deve estar para funcionar corretamente o código?
 
-<font color ="green">A) let carro = new Carro("Toyota");</font>
+<font color ="green">A) let carro = new Carro("Toyota");</font>(Correta)
 
-<font color ="red">B) let ligar = new ligar("Toyota");</font>
+<font color ="red">B) let ligar = new ligar("Toyota");</font>(Errada)
 
-<font color ="red">C) class Moto extends Veiculo {};</font>
+<font color ="red">C) class Moto extends Veiculo {};</font>(Errada)
 
-<font color ="red">D) carro1.ligar();</font>
+<font color ="red">D) carro1.ligar();</font>(Errada)
 
 ______
 
@@ -55,37 +55,37 @@ ______
 
 Escolha a opção que responde corretamente:
 
-<font color ="green">A) 18</font>
+<font color ="green">A) 18</font>(Correta)
 
-<font color ="red">B) 16</font>
+<font color ="red">B) 16</font>(Errada)
 
-<font color ="red">C) 14</font>
+<font color ="red">C) 14</font>(Errada)
 
-<font color ="red">D) 12</font>
+<font color ="red">D) 12</font>(Errada)
 
 ______
 
 **4)** Como você criaria um método `acelerar()` em uma classe `Carro`, que recebe um parâmetro `velocidade` e o adiciona a um atributo `velocidadeAtual`?
 
-<font color ="green">A) ![Uma imagem](assets/ex04_1.PNG)</font>
+<font color ="green">A) ![Uma imagem](assets/ex04_1.PNG)</font>(Correta)
 
-<font color ="red">B) ![Uma imagem](assets/ex04_2.PNG)</font>
+<font color ="red">B) ![Uma imagem](assets/ex04_2.PNG)</font>(Errada)
 
-<font color ="red">C) ![Uma imagem](assets/ex04_3.PNG)</font>
+<font color ="red">C) ![Uma imagem](assets/ex04_3.PNG)</font>(Errada)
 
-<font color ="red">D) ![Uma imagem](assets/ex04_4.PNG)</font>
+<font color ="red">D) ![Uma imagem](assets/ex04_4.PNG)</font>(Errada)
 
 ______
 
 **5)** Qual a forma correta de definir uma classe Carro em JavaScript, com um método ligar() e um atributo marca?
 
-<font color ="green">A) ![Uma imagem](assets/ex05_1.PNG)</font>
+<font color ="green">A) ![Uma imagem](assets/ex05_1.PNG)</font>(Correta)
 
-<font color ="red">B) ![Uma imagem](assets/ex05_2.PNG)</font>
+<font color ="red">B) ![Uma imagem](assets/ex05_2.PNG)</font>(Errada)
 
-<font color ="red">C) ![Uma imagem](assets/ex05_3.PNG)</font>
+<font color ="red">C) ![Uma imagem](assets/ex05_3.PNG)</font>(Errada)
 
-<font color ="red">D) ![Uma imagem](assets/ex05_4.PNG)</font>
+<font color ="red">D) ![Uma imagem](assets/ex05_4.PNG)</font>(Errada)
 
 **6)** Observe o código abaixo:
 
@@ -93,13 +93,13 @@ ______
 
 Qual será a saída do código acima?
 
-<font color ="green">A) "Olá, meu nome é João. Olá, meu nome é Maria."</font>
+<font color ="green">A) "Olá, meu nome é João. Olá, meu nome é Maria."</font>(Correta)
 
-<font color ="red">B) "Olá, meu nome é ."</font>
+<font color ="red">B) "Olá, meu nome é ."</font>(Errada)
 
-<font color ="red">C) "João Maria"</font>
+<font color ="red">C) "João Maria"</font>(Errada)
 
-<font color ="red">D) "undefined undefined"</font>
+<font color ="red">D) "undefined undefined"</font>(Errada)
 
 ______
 
