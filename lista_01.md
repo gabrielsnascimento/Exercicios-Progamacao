@@ -23,13 +23,13 @@ print(a)
 
 Escolha a opção que responde corretamente:
 
-a) Imprime os números pares de 1 a 10.
+<font color ="green">a) Imprime os números pares de 1 a 10.</font>
 
-b) Imprime os números ímpares de 1 a 10.
+<font color ="red">b) Imprime os números ímpares de 1 a 10.</font>
 
-c) Imprime os números pares de 2 a 10.
+<font color ="red">c) Imprime os números pares de 2 a 10.</font>
 
-d) Imprime os números ímpares de 2 a 10.
+<font color ="red">d) Imprime os números ímpares de 2 a 10.</font>
 
 ______
 
@@ -39,13 +39,13 @@ ______
 
 No lugar onde está escrito “// linha” qual das opções abaixo deve estar para funcionar corretamente o código?
 
-A) let carro = new Carro("Toyota");
+<font color ="green">A) let carro = new Carro("Toyota");</font>
 
-B) let ligar = new ligar("Toyota");
+<font color ="red">B) let ligar = new ligar("Toyota");</font>
 
-C) class Moto extends Veiculo {};
+<font color ="red">C) class Moto extends Veiculo {};</font>
 
-D) carro1.ligar();
+<font color ="red">D) carro1.ligar();</font>
 
 ______
 
@@ -55,39 +55,37 @@ ______
 
 Escolha a opção que responde corretamente:
 
-A) 18
+<font color ="green">A) 18</font>
 
-B) 16
+<font color ="red">B) 16</font>
 
-C) 14
+<font color ="red">C) 14</font>
 
-D) 12
+<font color ="red">D) 12</font>
 
 ______
 
 **4)** Como você criaria um método `acelerar()` em uma classe `Carro`, que recebe um parâmetro `velocidade` e o adiciona a um atributo `velocidadeAtual`?
 
-A) ![Uma imagem](assets/ex04_1.PNG)
+<font color ="green">A) ![Uma imagem](assets/ex04_1.PNG)</font>
 
-B) ![Uma imagem](assets/ex04_2.PNG)
+<font color ="red">B) ![Uma imagem](assets/ex04_2.PNG)</font>
 
-C) ![Uma imagem](assets/ex04_3.PNG)
+<font color ="red">C) ![Uma imagem](assets/ex04_3.PNG)</font>
 
-D) ![Uma imagem](assets/ex04_4.PNG)
+<font color ="red">D) ![Uma imagem](assets/ex04_4.PNG)</font>
 
 ______
 
 **5)** Qual a forma correta de definir uma classe Carro em JavaScript, com um método ligar() e um atributo marca?
 
-A) ![Uma imagem](assets/ex05_1.PNG)
+<font color ="green">A) ![Uma imagem](assets/ex05_1.PNG)</font>
 
-B) ![Uma imagem](assets/ex05_2.PNG)
+<font color ="red">B) ![Uma imagem](assets/ex05_2.PNG)</font>
 
-C) ![Uma imagem](assets/ex05_3.PNG)
+<font color ="red">C) ![Uma imagem](assets/ex05_3.PNG)</font>
 
-D) ![Uma imagem](assets/ex05_4.PNG)
-
-______
+<font color ="red">D) ![Uma imagem](assets/ex05_4.PNG)</font>
 
 **6)** Observe o código abaixo:
 
@@ -95,13 +93,13 @@ ______
 
 Qual será a saída do código acima?
 
-A) "Olá, meu nome é João. Olá, meu nome é Maria."
+<font color ="green">A) "Olá, meu nome é João. Olá, meu nome é Maria."</font>
 
-B) "Olá, meu nome é ."
+<font color ="red">B) "Olá, meu nome é ."</font>
 
-C) "João Maria"
+<font color ="red">C) "João Maria"</font>
 
-D) "undefined undefined"
+<font color ="red">D) "undefined undefined"</font>
 
 ______
 
@@ -120,6 +118,24 @@ Criando e manipulando Animais:
 
 Dica: Utilize `console.log()` para exibir as informações!
 
+Resposta:
+```javascript
+class Animal{
+    constructor(nome, idade){
+        this.nome = nome;
+        this.idade = idade;
+    }
+
+    descricao(){
+        return `O nome desse animal é ${this.nome} e ele tem ${this.idade} anos de idade`
+    }
+}
+let animal1 = new Animal("cachorro", "3")
+let animal2 = new Animal("gato", "2")
+
+console.log(animal1.descricao());
+console.log(animal2.descricao());
+````
 ______
 
 **8)** Nos últimos dias tivemos a oportunidade de ter contato com Programação Orientada a Objetos, e tivemos contato com o tema "herança". Herança é um princípio de orientação a objetos, que permite que classes compartilhem atributos e métodos. Ela é usada na intenção de reaproveitar código ou comportamento generalizado ou especializar operações ou atributos. Então vamos praticar esse conteúdo nessa questão.
@@ -145,6 +161,37 @@ Chamando os Métodos:
 
 Dica: Utilize console.log() para exibir as informações!
 
+Resposta:
+``` javascript
+class Animal{
+    constructor(nome, idade){
+        this.nome = nome
+        this.idade = idade
+    }
+
+    descrever(){
+        return `O nome desse animal é ${this.nome}, ele tem ${this.idade} anos de idade.`
+    }
+}
+
+class Gato extends Animal{
+    constructor(nome, idade, cor){
+        super(nome, idade);
+        this.cor = cor
+    }
+
+    miar(){
+      return `Ele faz Miau`
+    }
+}   
+
+let gato = new Gato("frajola", "3", "preto e branco")
+let cachorro = new Animal("Scooby", "4")
+
+console.log(gato.descrever() + gato.miar())
+console.log(cachorro.descrever())
+```
+
 
 ______
 
@@ -167,6 +214,30 @@ Chamando o Método para Ver o Total:
 
 Dica: Utilize console.log() para exibir as informações!
 
+Resposta:
+```javascript
+class SomadorDeNotas {
+    constructor() {
+        this.total = 0;
+    }
+
+    adicionarNota(nota) {
+        this.total += nota;
+    }
+
+    verTotal() {
+        console.log(`O total das notas é: ${this.total}`);
+    }
+}
+
+let somador = new SomadorDeNotas();
+
+somador.adicionarNota(8);
+somador.adicionarNota(7.5);
+somador.adicionarNota(9.2);
+
+somador.verTotal();
+```
 
 ______
 
@@ -188,3 +259,47 @@ Agora, sua tarefa é escrever um código em JavaScript que crie as classes Funci
 - Para cada objeto, chame o método calcularSalario() e mostre o salário calculado no console.
 
 Certifique-se de explicar cada parte do código utilizando comentários, explicando para que serve cada atributo e método, bem como a lógica por trás do cálculo de salário para o tipo de funcionário Professor.
+
+Resposta:
+```javascript
+// Definição da classe Funcionario
+class Funcionario {
+    // Construtor da classe Funcionario
+    constructor(nome, idade, salarioBase){
+        // Inicializa as propriedades nome, idade e salarioBase com os valores passados como argumentos
+        this.nome = nome;
+        this.idade = idade;
+        this.salarioBase = salarioBase;
+    }
+
+    calcularSalario(){
+        
+    }
+}
+
+// Definição da classe Professor que herda da classe Funcionario
+class Professor extends Funcionario {
+    // Construtor da classe Professor que chama o construtor da classe pai (Funcionario)
+    constructor(nome, idade, salarioBase, disciplina, horaAula){
+        super(nome, idade, salarioBase); // Constructor para puxar atributos e adicionar novos
+        // Inicializa as propriedades do Professor
+        this.disciplina = disciplina;
+        this.horaAula = horaAula;
+    }
+
+    // Método calcularSalario() para calcular o salário do professor
+    calcularSalario(){
+        // Retorna uma string com o salário do professor calculado multiplicando o número de horas aula pelo salário base
+        return `Prof ${this.nome} recebe ${this.horaAula * this.salarioBase} por mês.`;
+    }
+}
+
+// Criação de dois objetos (professores)
+let prof1 = new Professor("Israel", "33", 50, "matemática", 160);
+let prof2 = new Professor("Bianca", "31", 57, "ciências", 178);
+
+// Exibe o salário calculado para cada professor no console
+console.log(prof1.calcularSalario());
+console.log(prof2.calcularSalario());
+
+```
