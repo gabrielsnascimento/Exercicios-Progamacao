@@ -23,7 +23,7 @@ print(a)
 
 Escolha a opção que responde corretamente:
 
-<font color ="red">a) Imprime os números pares de 1 a 10.</font> (Correta)
+<font color ="red">a) Imprime os números pares de 1 a 10.</font> (Errada)
 
 <font color ="red">b) Imprime os números ímpares de 1 a 10.</font>(Errada)
 
