@@ -23,11 +23,11 @@ print(a)
 
 Escolha a opção que responde corretamente:
 
-<font color ="green">a) Imprime os números pares de 1 a 10. (Correta)</font>
+<font color ="red">a) Imprime os números pares de 1 a 10.</font> (Correta)
 
 <font color ="red">b) Imprime os números ímpares de 1 a 10.</font>(Errada)
 
-<font color ="red">c) Imprime os números pares de 2 a 10.</font>(Errada)
+<font color ="green">c) Imprime os números pares de 2 a 10.</font>(Correta)
 
 <font color ="red">d) Imprime os números ímpares de 2 a 10.</font>(Errada)
 
